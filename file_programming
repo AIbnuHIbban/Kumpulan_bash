@@ -1,0 +1,4 @@
+#!/bin/bash
+nautilus /home/aibnuhibban/Documents/PROJECT 
+
+kill -9 $PPID

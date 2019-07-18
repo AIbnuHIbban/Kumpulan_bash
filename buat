@@ -1,0 +1,31 @@
+#!/bin/bash
+if [ "$1" == "file" ] 
+	then
+	if [ "$2" != "" ] 
+		then
+		echo "Bikin File Apaan ?? "
+	else 
+		touch $2 $3 $4 $5 $6 $7 $8
+		echo "Udah Noh !! "
+		echo "============================"
+		echo "Isi di Directory Sekarang"
+		ls --color
+	fi
+
+elif [ "$1" == "folder" ] 
+	then
+
+	if [ "$2" == "" ] 
+		then
+		echo "Bikin Folder Apaan ??"
+	else
+		mkdir $2 $3 $4 $5 $6 $7 $8
+		echo "Udah Noh !! "
+		echo "============================"
+		echo "Isi di Directory Sekarang"
+		ls --color
+	fi
+
+else
+	echo "Bikin Folder apa File ??"
+fi

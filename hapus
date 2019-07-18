@@ -1,0 +1,38 @@
+#!/bin/bash
+
+if [ "$1" == "file" ] 
+	then
+	if [ "$2" == "" ] 
+		then
+		echo "Hapus File Apaan ?? "
+	else 
+		if [ "$3" != "" ] 
+			then
+			echo "Untuk Sekarang Hapusnya baru bisa satu Gan.."
+
+		fi
+
+		rm ./$2 
+		echo "Udah Noh !! "
+		echo "============================"
+		echo "Isi di Directory Sekarang"
+		ls --color
+	fi
+
+elif [ "$1" == "folder" ] 
+	then
+
+	if [ "$2" == "" ] 
+		then
+		echo "Hapus Folder Apaan ??"
+	else
+		rmdir -r $2 $3 $4 $5 $6 $7 $8
+		echo "Udah Noh !! "
+		echo "============================"
+		echo "Isi di Directory Sekarang"
+		ls --color
+	fi
+
+else
+	echo "Hapus Folder apa File ??"
+fi
