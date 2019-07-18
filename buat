@@ -3,13 +3,13 @@ if [ "$1" == "file" ]
 	then
 	if [ "$2" != "" ] 
 		then
-		echo "Bikin File Apaan ?? "
-	else 
 		touch $2 $3 $4 $5 $6 $7 $8
 		echo "Udah Noh !! "
 		echo "============================"
 		echo "Isi di Directory Sekarang"
 		ls --color
+	else 
+		echo "Bikin File Apaan ?? "
 	fi
 
 elif [ "$1" == "folder" ] 
