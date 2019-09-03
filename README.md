@@ -15,6 +15,9 @@
 
 ## List Command
 
+ - [x] update_git (New)
+ - [x] xampp_mulai (New)
+ - [x] xampp_mati (New)
  - [x] bikinin
  - [x] buat
  - [x] bukain
