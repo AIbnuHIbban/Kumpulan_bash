@@ -13,7 +13,7 @@
  
 ## Video Tutorial Installation
 
-<iframe width="660" height="415" src="https://www.youtube.com/embed/K3wtjZlyklY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![](http://img.youtube.com/vi/K3wtjZlyklY/0.jpg)](http://www.youtube.com/watch?v=K3wtjZlyklY "")
 
 ## List Command
 
