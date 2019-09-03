@@ -1,5 +1,3 @@
-![Kumpulan Bash LeeNuksID](https://lh3.googleusercontent.com/trOh8jyrPCWIesAJze1Y5seaQEtbCfDuHniVhp876ZBSE2kdg3kqpzkQ0_EorV09Qt8R58jz-mvy "Kumpulan Bash Linux - LeeNuksID"){ width=100% }
-
 # Kumpulan Bash 
 
 ## Installation
