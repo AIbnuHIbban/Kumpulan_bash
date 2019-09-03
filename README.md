@@ -4,6 +4,7 @@
 
  - `cd directory_folder` Sesuai keinginnan
  - `git clone https://github.com/AIbnuHIbban/Kumpulan_bash.git`
+ - `sudo chmod 755 Kumpulan_bash -R`
  - `cd ~`
  - `echo 'export PATH="$PATH:/directory_folder"' >> .bashrc`
  - `source .bashrc`
