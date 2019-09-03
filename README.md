@@ -6,7 +6,7 @@
  - `git clone https://github.com/AIbnuHIbban/Kumpulan_bash.git`
  - `sudo chmod 755 Kumpulan_bash -R`
  - `cd ~`
- - `echo 'export PATH="$PATH:/directory_folder"' >> .bashrc`
+ - `echo 'export PATH="$PATH:/directory_folder/Kumpulan_bash"' >> .bashrc`
  - `source .bashrc`
  
 ## Video Tutorial Installation
