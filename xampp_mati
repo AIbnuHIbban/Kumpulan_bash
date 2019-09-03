@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /opt/lampp;
+sudo ./lampp stop;
